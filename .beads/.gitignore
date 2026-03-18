@@ -3,6 +3,7 @@
 *.db-journal
 *.db-shm
 *.db-wal
+.br_history
 
 # Lock files
 *.lock
