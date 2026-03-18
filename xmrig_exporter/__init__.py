@@ -1,6 +1,4 @@
-from . import collector
-from . import exporter
+from .collector import XmrigCollector
+from .proxy_collector import XmrigProxyCollector
 
-XmrigCollector = collector.XmrigCollector
-
-exporter_main = exporter.main
+__version__ = "1.1.0"
